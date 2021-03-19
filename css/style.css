@@ -49,24 +49,29 @@ a:hover {
 }
 
 /* banner  */
-
 .banner {
     width: 100%;
     height: 400px;
     background: url(../img/banner.jpg);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.9;
+    border-radius: 10px;
 }
+
+.testobanner {
+    background-color: rgba(129,129,129,0.5);
+    height: 400px;
+    padding: 250px 400px 50px 50px;
+    border-radius: 10px;
+}
+
+
+
 
 /* specifico per box >> footer  */
 .violet {
     height: 35px;
     background-color: #8801FE;
 }
-
-
 
 .lightblue {
     width: 100%;
