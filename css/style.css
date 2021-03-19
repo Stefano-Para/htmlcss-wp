@@ -56,7 +56,6 @@ a:hover {
     background-position: center;
     border-radius: 10px;
 }
-
 .testobanner {
     background-color: rgba(129,129,129,0.5);
     height: 400px;
@@ -64,7 +63,12 @@ a:hover {
     border-radius: 10px;
 }
 
-
+/* main */
+.headmain {
+    width: 100%;
+    /* background-color: #ABCFE7; */
+    padding: 10px 0;
+}
 
 
 /* specifico per box >> footer  */
@@ -73,21 +77,16 @@ a:hover {
     background-color: #8801FE;
 }
 
-.lightblue {
-    width: 100%;
-    height: 50px;
-    background-color: #ABCFE7;
-}
 
-.aside {
+aside {
+    padding: 10px;
     width: 20%;
-    height: 340px;
-    background-color: #ABCFE7;
+    /* background-color: #ABCFE7; */
 }
 
-/* BOX BLUE  */
+/* BOX MAIN  */
 section {
-    background: #0186FF;
+    /* background: #0186FF; */
     padding-bottom: 1%;
 }
 section::after {
@@ -95,6 +94,13 @@ section::after {
     display: table;
     clear: both;
 }
+
+div #img1 {
+    height: 300px;
+    background: url(../img/img-1.jpg);
+}
+
+
 
 .right {
     margin-left: 1%;
@@ -107,6 +113,7 @@ section::after {
 }
 
 .center {
+    padding: 10px;
     float: left;
     background-color: #ABCFE7;
     height: 340px;
