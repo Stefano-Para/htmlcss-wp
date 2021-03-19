@@ -72,18 +72,6 @@ a:hover {
 }
 
 
-/* specifico per box >> footer  */
-.footer {
-    height: 35px;
-    background-color: #8801FE;
-}
-
-
-aside {
-    width: 20%;
-    /* background-color: #ABCFE7; */
-}
-
 /* BOX MAIN  */
 section {
     /* background: #0186FF; */
@@ -93,6 +81,10 @@ section::after {
     content: "";
     display: table;
     clear: both;
+}
+aside {
+    width: 20%;
+    /* background-color: #ABCFE7; */
 }
 
 div #img1 {
@@ -148,4 +140,14 @@ h4 {
 
 p:not(#specifico) {
     color: #A0A0A0;
+}
+
+/* footer  */
+p#designed {
+    margin: 0px auto;
+    width: 138px;
+}
+
+i {
+    color: red;
 }
