@@ -54,13 +54,14 @@ a:hover {
     height: 400px;
     background: url(../img/banner.jpg);
     background-position: center;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .testobanner {
     background-color: rgba(129,129,129,0.5);
     height: 400px;
     padding: 250px 400px 50px 50px;
     border-radius: 10px;
+    color: white;
 }
 
 /* main */
@@ -72,14 +73,13 @@ a:hover {
 
 
 /* specifico per box >> footer  */
-.violet {
+.footer {
     height: 35px;
     background-color: #8801FE;
 }
 
 
 aside {
-    padding: 10px;
     width: 20%;
     /* background-color: #ABCFE7; */
 }
@@ -115,6 +115,12 @@ div #img3 {
     border-radius: 10px;
 }
 
+.overlay {
+    background-color: rgba(129,129,129,0.5);
+    height: 300px;
+    border-radius: 15px;
+}
+
 
 .right {
     margin-left: 1%;
@@ -127,10 +133,19 @@ div #img3 {
 }
 
 .center {
-    padding: 10px;
     float: left;
-    background-color: #ABCFE7;
     height: 340px;
     width: 58%;
 }
 
+.testomain {
+    padding: 20px 0;
+}
+
+h4 {
+    margin-bottom: 5px;
+} 
+
+p:not(#specifico) {
+    color: #A0A0A0;
+}
