@@ -4,16 +4,21 @@
 	Margin: 0;
 	Padding: 0;
 }
+/* icona header */
 
-.icon {
-    background: blue;
-    height: 80px;
-    width: 80px;
-}
 .container {
     width: 80%;
     margin: 30px auto;
 }
+
+.icon {
+    background: url(../img/logo.png);
+    height: 70px;
+    background-size: 163px 69px;
+    background-repeat: no-repeat;
+    margin: 10px 0;
+}
+
 .box {
     margin: 10px auto;
 }
