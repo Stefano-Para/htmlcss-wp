@@ -4,28 +4,23 @@
 	Margin: 0;
 	Padding: 0;
 }
-/* icona header */
-
 .container {
     width: 80%;
     margin: 30px auto;
 }
 
+.box {
+    margin: 20px auto;
+}
+/* icona header */
 .icon {
     background: url(../img/logo.png);
     height: 70px;
     background-size: 163px 69px;
     background-repeat: no-repeat;
-    margin: 10px 0;
 }
-
-.box {
-    margin: 10px auto;
-}
-
-
-/* specifici box  */
-.pink {
+/* menù nav header  */
+nav {
     height: 50px;
     background-color: #E579E6;
 }
