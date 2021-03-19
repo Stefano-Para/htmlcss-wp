@@ -7,6 +7,7 @@
 .container {
     width: 80%;
     margin: 30px auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .box {
@@ -20,9 +21,43 @@
     background-repeat: no-repeat;
 }
 /* menù nav header  */
-nav {
-    height: 50px;
+/* nav {
+    line-height: 50px;
+    vertical-align: middle;
     background-color: #E579E6;
+
+    ho potuto eliminare. Nav non ha indicazioni perchè tutte in li/a. E' sbagliato?
+} */
+
+nav li {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    display: inline-block;
+    list-style: none;
+} 
+
+a {
+    text-decoration: none;
+    color: #D4D4D4;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* banner  */
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
 }
 
 /* specifico per box >> footer  */
@@ -31,10 +66,6 @@ nav {
     background-color: #8801FE;
 }
 
-.senape {
-    height: 200px;
-    background-color: #E1D67A;
-}
 
 
 .lightblue {
